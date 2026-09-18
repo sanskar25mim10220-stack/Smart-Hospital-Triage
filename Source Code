@@ -1,0 +1,19 @@
+#ifndef PATIENT_H
+#define PATIENT_H
+
+#include <string>
+
+class Patient {
+private:
+    int id;
+    std::string name;
+    bool isCritical;
+
+public:
+    Patient(int id, std::string name, bool critical);
+    int getId() const;
+    std::string getName() const;
+    bool getCriticalStatus() const;
+};
+
+#endif
