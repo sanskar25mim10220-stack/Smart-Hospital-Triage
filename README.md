@@ -1,7 +1,5 @@
-# Smart-Hospital-Triage
+# Smart-Hospital-Triage System
 This system manages patient flow in an emergency room. It uses advanced data concepts—specifically relying on a stack-based approach for emergency overrides (last-in, first-out for critical conditions) and a circular routing model to distribute patients evenly among on-call doctors.
-
-# Smart Hospital Triage System
 
  Overview of the Project
 A lightweight C++ CLI application designed to optimize emergency room patient flow. It categorizes patients and uses algorithmic routing to assign them to doctors efficiently, ensuring critical patients receive immediate care.
